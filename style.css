@@ -1,0 +1,40 @@
+header {
+  background-color: blueviolet;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  color: mediumturquoise;
+}
+
+body {
+  background-color: lightblue;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+table {
+  color: navy;
+  width: 200px;
+  height: 200px;
+  font-size: larger;
+}
+
+.lesson-card img {
+  height: 100px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.lesson-card {
+  background-color: chocolate;
+  color: darkkhaki;
+  width: 220px;
+  border-radius: 20px;
+  padding: 10px;
+  height: 220px;
+  text-align: center;
+}
+
+#lessons {
+  display: flex;
+  gap: 10px;
+}
