@@ -1,40 +1,97 @@
-header {
-  background-color: blueviolet;
+body {
+  background-color: #02024e; /* Dark blue */
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #FFFFFF; /* White */
+}
+
+/* Header styling */
+.site-header {
+  background-color: #0a0a6ebb;
   text-align: center;
   border-radius: 20px;
   padding: 10px;
-  color: mediumturquoise;
+  color: #FFFFFF;
+  border: 1px solid #000000;
 }
 
-body {
-  background-color: lightblue;
-  margin-left: 10%;
-  margin-right: 10%;
+.site-header p {
+  font-size: 20px;
 }
-table {
-  color: navy;
+
+/* Table styling */
+.info-table {
+  color: #FFFFFF;
   width: 200px;
   height: 200px;
   font-size: larger;
+  border: 1px solid #000000;
 }
 
-.lesson-card img {
-  height: 100px;
-  width: 200px;
-  object-fit: cover;
-}
-
-.lesson-card {
-  background-color: chocolate;
-  color: darkkhaki;
+/* Lesson cards */
+.lesson-box {
+  background-color: #0a0a6ebb;
+  color: #FFFFFF;
   width: 220px;
   border-radius: 20px;
   padding: 10px;
   height: 220px;
   text-align: center;
+  border: 1px solid #000000;
 }
 
-#lessons {
+.lesson-box img {
+  height: 100px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.lesson-box:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  color: #00008B;
+}
+
+/* Lessons section */
+#lesson-section {
   display: flex;
   gap: 10px;
 }
+
+/* Lesson detail page */
+.lesson-banner {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 1px solid #000000;
+}
+
+.lesson-description {
+  font-size: 18px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: justify;
+  background-color: #0a0a6ebb;
+  border: 1px solid #000000;
+}
+
+/* Back button */
+.return-home {
+  text-align: center;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  font-size: 20px;
+  color: #00008B;
+  margin-left: 50%;
+  border: 1px solid #000000;
+}
+
+/* Link styling */
+a {
+  color: #FFFFFF;
+}
+
